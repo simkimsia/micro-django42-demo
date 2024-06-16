@@ -12,3 +12,6 @@ docker/production/meilisearch/*
 .envs/.local/.meilisearch
 output_cookiecutter.json
 .canonical
+original_html/*
+theme/static/*
+theme/static_src/node_modules
