@@ -1,3 +1,7 @@
+// BEGIN_REPLACE
+// micro-django42-demo => {{ cookiecutter.project_name }}
+// micro_django42_demo => {{ cookiecutter.project_slug }}
+// REPLACE_START
 alerts:
 - rule: DEPLOYMENT_FAILED
 - rule: DOMAIN_FAILED
@@ -25,3 +29,4 @@ services:
   name: micro_django42_demo
   run_command: gunicorn manage:application --log-file -
   source_dir: /
+// REPLACE_END
