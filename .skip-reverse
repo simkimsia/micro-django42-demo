@@ -10,7 +10,6 @@ docker/production/meilisync/*
 docker/production/meilisearch/*
 .envs/.personal/.meilisearch
 .envs/.local/.meilisearch
-output_cookiecutter.json
 .canonical
 original_html/*
 theme/static/*
